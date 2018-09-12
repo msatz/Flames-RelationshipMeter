@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D96EA9214918BA002C9BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96EA8214918BA002C9BA7 /* AppDelegate.swift */; };
+		92D96EAB214918BA002C9BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96EAA214918BA002C9BA7 /* ViewController.swift */; };
+		92D96EAE214918BA002C9BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D96EAC214918BA002C9BA7 /* Main.storyboard */; };
+		92D96EB0214918C1002C9BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D96EAF214918C1002C9BA7 /* Assets.xcassets */; };
+		92D96EB3214918C1002C9BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D96EB1214918C1002C9BA7 /* LaunchScreen.storyboard */; };
+		92D96EBE214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96EBD214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift */; };
+		92D96EC9214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96EC8214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92D96EBA214918C1002C9BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D96E9D214918BA002C9BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D96EA4214918BA002C9BA7;
+			remoteInfo = "Flames-RelationshipMeter";
+		};
+		92D96EC5214918C1002C9BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D96E9D214918BA002C9BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D96EA4214918BA002C9BA7;
+			remoteInfo = "Flames-RelationshipMeter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92D96EA5214918BA002C9BA7 /* Flames-RelationshipMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flames-RelationshipMeter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D96EA8214918BA002C9BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92D96EAA214918BA002C9BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92D96EAD214918BA002C9BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92D96EAF214918C1002C9BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92D96EB2214918C1002C9BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92D96EB4214918C1002C9BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D96EB9214918C1002C9BA7 /* Flames-RelationshipMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flames-RelationshipMeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D96EBD214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flames_RelationshipMeterTests.swift; sourceTree = "<group>"; };
+		92D96EBF214918C1002C9BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D96EC4214918C1002C9BA7 /* Flames-RelationshipMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flames-RelationshipMeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D96EC8214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flames_RelationshipMeterUITests.swift; sourceTree = "<group>"; };
+		92D96ECA214918C1002C9BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D96EA2214918BA002C9BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D96EB6214918C1002C9BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D96EC1214918C1002C9BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D96E9C214918BA002C9BA7 = {
+			isa = PBXGroup;
+			children = (
+				92D96EA7214918BA002C9BA7 /* Flames-RelationshipMeter */,
+				92D96EBC214918C1002C9BA7 /* Flames-RelationshipMeterTests */,
+				92D96EC7214918C1002C9BA7 /* Flames-RelationshipMeterUITests */,
+				92D96EA6214918BA002C9BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D96EA6214918BA002C9BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D96EA5214918BA002C9BA7 /* Flames-RelationshipMeter.app */,
+				92D96EB9214918C1002C9BA7 /* Flames-RelationshipMeterTests.xctest */,
+				92D96EC4214918C1002C9BA7 /* Flames-RelationshipMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D96EA7214918BA002C9BA7 /* Flames-RelationshipMeter */ = {
+			isa = PBXGroup;
+			children = (
+				92D96EA8214918BA002C9BA7 /* AppDelegate.swift */,
+				92D96EAA214918BA002C9BA7 /* ViewController.swift */,
+				92D96EAC214918BA002C9BA7 /* Main.storyboard */,
+				92D96EAF214918C1002C9BA7 /* Assets.xcassets */,
+				92D96EB1214918C1002C9BA7 /* LaunchScreen.storyboard */,
+				92D96EB4214918C1002C9BA7 /* Info.plist */,
+			);
+			path = "Flames-RelationshipMeter";
+			sourceTree = "<group>";
+		};
+		92D96EBC214918C1002C9BA7 /* Flames-RelationshipMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				92D96EBD214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift */,
+				92D96EBF214918C1002C9BA7 /* Info.plist */,
+			);
+			path = "Flames-RelationshipMeterTests";
+			sourceTree = "<group>";
+		};
+		92D96EC7214918C1002C9BA7 /* Flames-RelationshipMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92D96EC8214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift */,
+				92D96ECA214918C1002C9BA7 /* Info.plist */,
+			);
+			path = "Flames-RelationshipMeterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D96EA4214918BA002C9BA7 /* Flames-RelationshipMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D96ECD214918C1002C9BA7 /* Build configuration list for PBXNativeTarget "Flames-RelationshipMeter" */;
+			buildPhases = (
+				92D96EA1214918BA002C9BA7 /* Sources */,
+				92D96EA2214918BA002C9BA7 /* Frameworks */,
+				92D96EA3214918BA002C9BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flames-RelationshipMeter";
+			productName = "Flames-RelationshipMeter";
+			productReference = 92D96EA5214918BA002C9BA7 /* Flames-RelationshipMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92D96EB8214918C1002C9BA7 /* Flames-RelationshipMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D96ED0214918C1002C9BA7 /* Build configuration list for PBXNativeTarget "Flames-RelationshipMeterTests" */;
+			buildPhases = (
+				92D96EB5214918C1002C9BA7 /* Sources */,
+				92D96EB6214918C1002C9BA7 /* Frameworks */,
+				92D96EB7214918C1002C9BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D96EBB214918C1002C9BA7 /* PBXTargetDependency */,
+			);
+			name = "Flames-RelationshipMeterTests";
+			productName = "Flames-RelationshipMeterTests";
+			productReference = 92D96EB9214918C1002C9BA7 /* Flames-RelationshipMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92D96EC3214918C1002C9BA7 /* Flames-RelationshipMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D96ED3214918C1002C9BA7 /* Build configuration list for PBXNativeTarget "Flames-RelationshipMeterUITests" */;
+			buildPhases = (
+				92D96EC0214918C1002C9BA7 /* Sources */,
+				92D96EC1214918C1002C9BA7 /* Frameworks */,
+				92D96EC2214918C1002C9BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D96EC6214918C1002C9BA7 /* PBXTargetDependency */,
+			);
+			name = "Flames-RelationshipMeterUITests";
+			productName = "Flames-RelationshipMeterUITests";
+			productReference = 92D96EC4214918C1002C9BA7 /* Flames-RelationshipMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D96E9D214918BA002C9BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Sathish;
+				TargetAttributes = {
+					92D96EA4214918BA002C9BA7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					92D96EB8214918C1002C9BA7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 92D96EA4214918BA002C9BA7;
+					};
+					92D96EC3214918C1002C9BA7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 92D96EA4214918BA002C9BA7;
+					};
+				};
+			};
+			buildConfigurationList = 92D96EA0214918BA002C9BA7 /* Build configuration list for PBXProject "Flames-RelationshipMeter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92D96E9C214918BA002C9BA7;
+			productRefGroup = 92D96EA6214918BA002C9BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D96EA4214918BA002C9BA7 /* Flames-RelationshipMeter */,
+				92D96EB8214918C1002C9BA7 /* Flames-RelationshipMeterTests */,
+				92D96EC3214918C1002C9BA7 /* Flames-RelationshipMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D96EA3214918BA002C9BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D96EB3214918C1002C9BA7 /* LaunchScreen.storyboard in Resources */,
+				92D96EB0214918C1002C9BA7 /* Assets.xcassets in Resources */,
+				92D96EAE214918BA002C9BA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D96EB7214918C1002C9BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D96EC2214918C1002C9BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D96EA1214918BA002C9BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D96EAB214918BA002C9BA7 /* ViewController.swift in Sources */,
+				92D96EA9214918BA002C9BA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D96EB5214918C1002C9BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D96EBE214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D96EC0214918C1002C9BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D96EC9214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92D96EBB214918C1002C9BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92D96EA4214918BA002C9BA7 /* Flames-RelationshipMeter */;
+			targetProxy = 92D96EBA214918C1002C9BA7 /* PBXContainerItemProxy */;
+		};
+		92D96EC6214918C1002C9BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92D96EA4214918BA002C9BA7 /* Flames-RelationshipMeter */;
+			targetProxy = 92D96EC5214918C1002C9BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92D96EAC214918BA002C9BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D96EAD214918BA002C9BA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92D96EB1214918C1002C9BA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D96EB2214918C1002C9BA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D96ECB214918C1002C9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92D96ECC214918C1002C9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D96ECE214918C1002C9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flames-RelationshipMeter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msatz.Flames-RelationshipMeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92D96ECF214918C1002C9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flames-RelationshipMeter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msatz.Flames-RelationshipMeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92D96ED1214918C1002C9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flames-RelationshipMeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msatz.Flames-RelationshipMeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flames-RelationshipMeter.app/Flames-RelationshipMeter";
+			};
+			name = Debug;
+		};
+		92D96ED2214918C1002C9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flames-RelationshipMeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msatz.Flames-RelationshipMeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flames-RelationshipMeter.app/Flames-RelationshipMeter";
+			};
+			name = Release;
+		};
+		92D96ED4214918C1002C9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flames-RelationshipMeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msatz.Flames-RelationshipMeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flames-RelationshipMeter";
+			};
+			name = Debug;
+		};
+		92D96ED5214918C1002C9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flames-RelationshipMeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msatz.Flames-RelationshipMeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flames-RelationshipMeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D96EA0214918BA002C9BA7 /* Build configuration list for PBXProject "Flames-RelationshipMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D96ECB214918C1002C9BA7 /* Debug */,
+				92D96ECC214918C1002C9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D96ECD214918C1002C9BA7 /* Build configuration list for PBXNativeTarget "Flames-RelationshipMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D96ECE214918C1002C9BA7 /* Debug */,
+				92D96ECF214918C1002C9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D96ED0214918C1002C9BA7 /* Build configuration list for PBXNativeTarget "Flames-RelationshipMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D96ED1214918C1002C9BA7 /* Debug */,
+				92D96ED2214918C1002C9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D96ED3214918C1002C9BA7 /* Build configuration list for PBXNativeTarget "Flames-RelationshipMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D96ED4214918C1002C9BA7 /* Debug */,
+				92D96ED5214918C1002C9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D96E9D214918BA002C9BA7 /* Project object */;
+}
