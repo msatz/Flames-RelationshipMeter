@@ -14,6 +14,7 @@
 		92D96EB3214918C1002C9BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D96EB1214918C1002C9BA7 /* LaunchScreen.storyboard */; };
 		92D96EBE214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96EBD214918C1002C9BA7 /* Flames_RelationshipMeterTests.swift */; };
 		92D96EC9214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96EC8214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift */; };
+		92D96ED721491A7A002C9BA7 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D96ED621491A7A002C9BA7 /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		92D96EC4214918C1002C9BA7 /* Flames-RelationshipMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flames-RelationshipMeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D96EC8214918C1002C9BA7 /* Flames_RelationshipMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flames_RelationshipMeterUITests.swift; sourceTree = "<group>"; };
 		92D96ECA214918C1002C9BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D96ED621491A7A002C9BA7 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				92D96EA8214918BA002C9BA7 /* AppDelegate.swift */,
 				92D96EAA214918BA002C9BA7 /* ViewController.swift */,
+				92D96ED621491A7A002C9BA7 /* ProgressBarView.swift */,
 				92D96EAC214918BA002C9BA7 /* Main.storyboard */,
 				92D96EAF214918C1002C9BA7 /* Assets.xcassets */,
 				92D96EB1214918C1002C9BA7 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D96EAB214918BA002C9BA7 /* ViewController.swift in Sources */,
+				92D96ED721491A7A002C9BA7 /* ProgressBarView.swift in Sources */,
 				92D96EA9214918BA002C9BA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HGKU963PA;
 				INFOPLIST_FILE = "Flames-RelationshipMeter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HGKU963PA;
 				INFOPLIST_FILE = "Flames-RelationshipMeter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
